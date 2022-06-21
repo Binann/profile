@@ -1,0 +1,80 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    font-family: 'Nuosu SIL', serif;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+.container
+{
+    padding: 0 rem;
+}
+.header
+{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo
+{
+    font-size: 2rem;
+    color: white;
+    width: 3rem;
+    height: 3rem;
+    background-color: #F26646;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+    
+}
+.header__social i
+{
+font-size: 2rem;
+padding: 0.8rem;
+color: #FFF;
+background-color: #F26646;
+border-radius: 50%;
+}  
+.header__social
+{
+    margin-right: 1rem;
+}
+.content {
+    margin: 2rem 2rem;
+    
+}
+.content img
+{
+   width: 100%;
+}
+.content__infor h1
+{
+    font-size: 3rem;
+}
+
+.content_subinfor h3
+{
+    color: #F26646;
+    font-size: 3rem;
+}
+.content_subinfor p
+{
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+.content_subinfor 
+{
+    display: flex;
+    align-items: center;
+}
+.content_subinfor li{
+    list-style: none;
+    margin-right: 3rem;
+}
